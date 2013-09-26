@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "list.h"
-
 void list_insert(int num, struct node **head){
 	struct node *tmp = *head;
 	struct node *newnode = malloc(sizeof(struct node));

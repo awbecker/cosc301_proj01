@@ -10,6 +10,4 @@ void list_insert(int num, struct node **head);
 
 void list_print(const struct node *head);
 
-void list_clear(struct node *head);
-
 #endif // __LIST_H__
